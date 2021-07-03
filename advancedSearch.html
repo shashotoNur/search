@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+    <link rel = "icon" href =  "./img/google-icon.png" type = "image/x-icon">
+    <link rel = "icon" href =  "./img/google-icon.png" type = "image/x-icon"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="google-header" id="head-color">
+        <button id="sign-in">Sign in</button>
+        <div class="header-icons">
+            <i class="fa fa-th"></i>
+            <a href="./index.html">Google</a>
+        </div>
+    </div>
+
+    <label for="" id="label">Advanced Search</label>
+    <hr>
+    <form action="https://google.com/search">
+        <h5>Find words with...</h5> <br> <br>
+        <div class="form-div">
+            <label>All these words:</label>
+            <input type="text" name="as_q">
+            <div class="example">
+                Type the important words: <span class="space">tri-colour rat terrier</span>
+            </div>
+        </div>
+        <div class="form-div">
+            <label>This exact word or phrase:</label>
+            <input type="text" name="as_epq">
+            <div class="example">
+                Put exact words in quotes: <span class="space">"rat terrier"</span>
+            </div>
+        </div>
+        <div class="form-div">
+            <label>Any of these words: </label>
+            <input type="text" name="as_oq">
+            <div class="example">
+                Type OR between all the words you want: <span class="space">miniature OR standard</span>
+            </div>
+        </div>
+        <div class="form-div">
+            <label>None of these words:</label>
+            <input type="text" name="as_eq">
+            <div class="example">
+                Put a minus sign just before words that you don't want: <span class="space">-rodent, -"Jack Russell"</span>
+            </div>
+        </div>
+        <br>
+        <input type="submit" class="btn btn-primary" value="Advanced search">
+    
+    </form>
+</body>
+</html>

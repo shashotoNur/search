@@ -1,0 +1,245 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.google-header
+{
+    width: 100%;
+    max-height: 500px;
+    float: right;
+    padding-bottom: 15px;
+}
+
+.google-header img
+{
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+#sign-in
+{
+    border-radius: 5%;
+    width: 70px;
+    float: right;
+    border: none;
+    margin-right: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #4485F6;
+    color: white;
+
+}
+
+.header-icons
+{
+    float: right;
+    width: 230px;
+    margin-top: 28px;
+    margin-right: 10px;
+}
+
+.header-icons .fa-th
+{
+    font-size: 20px;
+    margin-top: -5px;
+    color: gray;
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.header-icons .fa-th:hover
+{
+    color: #000;
+}
+
+.header-icons a
+{
+    padding: 5px;
+    color: #333;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.header-icons a:hover
+{
+    color: gray;
+}
+
+.google-search
+{
+    padding: 20px;
+}
+
+.google-image img
+{
+    margin: 150px 100px;
+    margin-bottom: 30px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.input-group
+{
+    margin: 13px auto 10px;
+    border-radius: 20px;
+    max-width: 550px;
+    background-color: #f5f5f5;
+}
+
+.form-control
+{
+    border: none!important;
+    border-radius: 20px!important;
+    background-color: #f5f5f5!important;
+}
+
+.input-group-text
+{
+    background: transparent!important;
+    border: none!important;
+}
+
+#search
+{
+    max-width: 18px;
+}
+
+#bar
+{
+    border: none;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 30px;
+    height: 50px;
+    width: 600px;
+    border:1px solid #eaeaea;
+    outline:none;
+}
+
+.input-group .fa
+{
+    color: #007bff;
+    cursor: pointer;
+}
+
+.fa fa-microphone
+{
+    padding-right: 2px;
+}
+
+.form-control:focus
+{
+    box-shadow: none!important;
+}
+
+input .butt
+{
+    color: rgb(98, 100, 102);
+}
+
+.butt
+{
+    padding: 10px 10px;
+    margin: 20px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F8F9FA;
+}
+
+.col-md-4
+{
+    width: 120px!important;
+    padding: none;
+}
+
+.site
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.site:hover
+{
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.site p
+{
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.site .fa
+{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    text-align: center;
+    padding-top: 12px;
+}
+
+
+.camera
+{
+    max-width: 40px;
+    padding-right: 2px;
+}
+
+#label
+{
+    font-size: 30px;
+    color: #D93025;
+}
+
+#head-color
+{
+    background-color: #f1f1f1;
+}
+
+.texty{
+    padding-right: 800px;
+}
+
+.form-div 
+{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+.form-div label 
+{
+    width: 16%;
+    font-size: 14px;
+}
+.form-div input[type=text] 
+{
+    width: 49%;
+    padding: 2px 0;
+}
+.form-div .example
+{
+    font-size: 11px;
+    width: 30%;
+    margin-left: 1%;
+}
+.form-div .example .space 
+{
+    font-family: monospace;
+}
+
+.btn
+{
+    margin-left: 1000px;
+}
